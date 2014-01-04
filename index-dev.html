@@ -1,0 +1,1050 @@
+<html>
+	<head>
+<!--		<style> 
+@font-face
+{
+  font-family: 'Open Sans';
+  src: url('OpenSans-Regular-webfont.woff');
+  src: local('☺'),
+         url('OpenSans-Regular-webfont.woff') format('woff'), url('OpenSans-Regular-webfont.ttf') format('truetype');
+}
+
+div
+{
+font-family: 'Open Sans';
+}
+
+</style>-->
+
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8" />
+		<title>S.T.A.L.K.E.R. Modding Reference</title>
+		<link rel="shortcut icon" href="http://www.gbgl-hq.com/demoness/html/favicon.ico" type="image/x-icon"/>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+		<script src="js/lightbox-2.6.min.js"></script>
+		<!--<script src="js/thumbmails.js"></script>-->
+		<link rel="stylesheet" type="text/css" href="css/ricing-dev.css" />
+		<link href="css/lightbox.css" rel="stylesheet" />
+	</head>
+	<body>
+			<div id="nav" style="overflow: auto;">
+				<div id="logo">
+					<h1 id="title">сталкер</h1>
+					<span class="byline">welcome to the zone</span>
+				</div>
+				<nav id="navigation">
+					<ul>
+						<li><a href="#@0">Guides and Resources</a></li>
+						<li><a href="#@1">General Tips and Tricks</a></li>
+						<li><a href="#@1a">Tweaks and Performance Tips </a></li>
+						<li><a href="#@1b">Troubleshooting</a></li>
+						<li><a href="#@2">Modding 101</a></li>
+						<li><a href="#@3">Shadow of Chernobyl Mods</a></li>
+						<li><a href="#@19">Credits</a></li>
+						<!--<li><a href="#@4">Font Rendering</a></li>
+						<li><a href="#@4a">Font Recommendations</a></li>
+						<li><a href="#@5">Bblean</a></li>
+						<li><a href="#@5a">Bblean FAQ</a></li>
+						<li><a href="#@6">Cursors</a></li>
+						<li><a href="#@7">Music Software</a></li>
+						<li><a href="#@15">Image and Video Software</a></li>
+						<li><a href="#@8">Rainmeter</a></li>
+						<li><a href="#@8a">Rainmeter FAQ</a></li>
+						<li><a href="#@9">Start/Home Page Mods</a></li>
+						<li><a href="#@10">FireFox</a></li>
+						<li><a href="#@10a">FireFox (Browser) CSS</a></li>
+						<li><a href="#@10b">4chan Userstyles &amp; Userscripts</a></li>
+						<li><a href="#@11">Window Managers &amp; Windows Shells</a></li>
+						<li><a href="#@12">Auto Hot Key Scripts</a></li>
+						<li><a href="#@12a">Window Tiling &amp; Key References</a></li>
+						<li><a href="#@13">Virtua Win and Multiple Desktops</a></li>
+						<li><a href="#@14">Docks and Launchers</a></li>
+						<li><a href="#@16">Chat Clients (Internet Relay Chat)</a></li>
+						<li><a href="#@16a">Channels</a></li>
+						<li><a href="#@17">Steam Skins</a></li>
+						<li><a href="#@18">Vector and wallpaper websites</a></li>
+						<li><a href="#@19">Credits</a></li>-->
+                    </ul>
+                    <!--<ul class="menu">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+					</ul>-->
+				</nav>
+			</div>
+                <nav class="nav">
+                    <div class="nav-wrap">
+                        <ul class="menu" style="clip: rect(0px, 0px, auto, 0px);">
+                            <li>
+                                <a href="#about" rel="#about">About</a>
+                            </li>
+                            <li><a href="#contact" rel="#contact">Contact</a>
+                            </li>
+                            <!--<a class="nav-trigger" href="#"></a>-->
+                        </ul>
+                    </div>
+                </nav>
+			<section id="about" class="page">
+                <a class="close" href="#">x</a>
+                <div class="page-container">
+                    <div class="wrap">
+                        <h2 class="changelog-title">Changelog</h2>
+                        <h5>04/01/2014</h5>
+                        <p>Improved phone/tablet support/fluid resizing</p>
+                        <h5>03/01/2014</h5>
+                        <p>Added a fancy changelog and contact page</p>
+                        <h5>29/12/2013</h5>
+                        <p>Hosted the site source on github</p>
+                    </div>
+                </div>
+            </section>
+        
+            <section id="contact" class="page">
+                <a class="close" href="#">x</a>
+                <div class="page-container">
+                    <div class="wrap">
+                        <h2 class="contact-title">Contact</h2>
+                        <h5>!REPOmAN2v2</h5>
+                        <p>You'll find me in the /vg/ general.</p>
+                        <h5><a href="https://github.com/REPOmAN2v2/pasta">Github</a></h5>
+                        <p>Contribute to the site now!</p>
+                    </div>
+                </div>
+            </section>
+        
+            <script>
+                $(document).ready(function() {
+                    $("a[rel]").overlay();
+                });
+            </script>
+			
+			<div id="wrapper">
+				<section id="header" class="one">
+					 <li ><div class="h2"><img src="./img/header.jpg" alt="Header"></div></li>
+					 <li ><div >&nbsp;</div></li>
+					 <li ><div >&nbsp;</div></li>
+					 <li ><div class="h3">You can navigate this page easier by using the menu on the left side.</div></li>
+					 <li ><div >&nbsp;</div></li>
+					 <li ><div class="h3">Remember : Ctrl + F to search keywords on this page!</div></li>
+					 <li ><div >&nbsp;</div></li>
+					 <li ><div >&nbsp;</div></li>
+				</section>
+				<section id="links" class="two">
+					 <li id="@0"><div class="h">Infographics</div></li>
+					 <li ><div class="h3">Pictures with text for visual learners</div></li>
+					 <div id="info"><li ><div >&nbsp;</div></li>
+					 <li ><div class="light" >
+								<a href="./img/Starting_guide.jpg" data-lightbox="info">
+									<img src="./img/Starting_guide.jpg" class="thumb">
+								</a>
+								<sub><h3 class="bigtext"><span class="thumb-sub">Starter Guide</span></h3></sub>
+							</div>
+						</li>
+					 <li ><div class="light" >
+								<a href="./img/HUD_guide.jpg" data-lightbox="info">
+									<img src="./img/HUD_guide.jpg" class="thumb">
+									</a>
+									<sub><h3 class="bigtext"><span class="thumb-sub">HUD Guide</span></h3></sub>
+							</div>
+						</li>
+					 <li ><div class="light">
+								<a href="./img/modsv2.jpg" data-lightbox="info">
+									<img src="./img/modsv2.jpg" class="thumb">
+									</a>
+									<sub><h3 class="bigtext"><span class="thumb-sub">Mod Overview</span></h3></sub>
+						   </div>
+						</li>
+					 <li ><div class="light">
+								<a href="./img/downgrade.png" data-lightbox="info">
+									<img src="./img/downgrade.png" class="thumb">
+									</a>
+									<sub><h3 class="bigtext"><span class="thumb-sub">Downgrade</span></h3></sub>
+						   </div>
+						</li>
+					<li ><div class="light">
+								<a href="./img/AMK.jpg" data-lightbox="info">
+									<img src="./img/AMK.jpg" class="thumb">
+									</a>
+									<sub><h3 class="bigtext"><span class="thumb-sub">AMK Guide</span></h3></sub>
+						   </div>
+						</li></div>
+					 <li ><div >&nbsp;</div></li>
+					 <li ><div class="h">Tell all guides + Tips</div></li>
+					 <li ><div class="h3">New to modding? The following guides are required reading</div></li>
+					 <li ><div >&nbsp;</div></li>
+					 <li ><div ><a href="http://steamcommunity.com/sharedfiles/filedetails/?id=121125400">The Zone Manual</a></div></li>
+					 <li ><div ><a href="http://pastebin.com/FUPEbLiv">The brilliant FAQ you rookies never want to read</a></div></li>
+					 <li ><div >&nbsp;</div></li>
+					 <li ><div class="h">Pages of Interest</div></li>
+                     <li ><div ><a href="https://boards.4chan.org/vg/catalog#s=S.T.A.L.K.E.R.">S.T.A.L.K.E.R. General</a></div></li>
+					 <li ><div ><a href="https://mega.co.nz/#F!zEtSxC4J!eRsovn-n098UpRtLDmr5_w">My repository of mods</a></div></li>
+					 <li ><div ><a href="http://cheeki.violates.me/stalker/">Backup repository if needed</a></div></li>
+					 <li ><div ><a href="https://mega.co.nz/#F!kFtnBTSb!K-RlA1TVxlJGl86yE1c6fw">The S.T.A.L.K.E.R. Build Repository by Ardias</a></div></li>
+					 <li ><div ><a href="http://pastebin.com/9ch5Yq96">The poorfag's guide to S.T.A.L.K.E.R.</a></div></li>
+					 <li ><div ><a href="http://pastebin.com/u/TheREVIEWER">TheREVIEWER's reviews</a></div></li>
+					 <li ><div ><a href="http://www.tweakguides.com/STALKER_1.html">TweakGuides' guide for SoC</a></div></li>
+					 <li ><div ><a href="http://www.tweakguides.com/ClearSky_1.html">TweakGuides' guide for Clear Sky</a></div></li>
+					 <li ><div ><a href="http://www.metacognix.com/stlkrsoc/CrashesStillInTheGame.html">List of common SoC crashes</a></div></li>
+					 <li ><div ><a href="http://www.gsc-game.com/main.php?t=community&s=forums">GSC Forums</a></div></li>
+					 <li ><div ><a href="http://stalker.wikia.com/wiki/Main_Page">S.T.A.L.K.E.R. Wiki</a></div></li>
+					 <li ><div ><a href="http://zsg.dk/index.php">The Zone Survival Guide - SoC</a></div></li>
+					 <li ><div ><a href="http://cop.zsg.dk/">The Zone Survival Guide - Call of Pripyat</a></div></li>
+					 <li ><div ><a href="http://www.moddb.com/">ModDB, for all your modding needs</a></div></li>
+					 <li ><div ><a href="http://www.moddb.com/members/davidme">david.m.e's ModDB page</a></div></li>
+					 <li ><div ><a href="http://www.moddb.com/mods/zone-of-alienation-mod">ZoA's ModDB page</a></div></li>
+					 <li ><div >&nbsp;</div></li>
+				</section>
+				<section id="tips" class="three">
+					 <li id="@1"><div class="h">General Tips + Tricks</div></li>
+					 <li ><div class="h3">Miscellaneous tips</div></li>
+					 <div id="content-inner">
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Where to start</b></div></li>
+						 <li ><div class="content">Start with SoC (of course!). Try without big mods first. Play the games in the order they came out, Shadow of Chernobyl, Clear Sky and Call of Pripyat</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>But-but muh mods!</b></div></li>
+						 <li ><div class="content">ZRP (Zone Reclamation Project) is a fine mod for 1st timers, as it does not change gameplay or graphics, only fixes errors in the game.<br>It can be found with some recommended graphic mods in the STARTER pack.</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Gameplay tips</b></div></li>
+						 <li ><div class="content">- Trust the Master Stalkers, play on the highest difficulty. Master is the best as it improves AI and gun-damage, both ways.<br>- Disable the crosshair, you don't need it, you don't want to hip-fire unless targets are just a few meters away from you.<br>- Check your other Options and key-bindings! Read the Manual! These can teach you more than you'd imagine.<br>- In the beginning, choose to get "Brainwashed", this gives you a short tutorial.<br>- Read your in-game PDA often!<br>- In fights, always use cover. Stay low. Aim with your weapons. Set automatic guns to semi or burst-mode for more accuracy.<br>- Aim for the head. From long distance aim to center mass.<br>- Select your ammo-type according the enemy. AP-rounds against most humans, regular ammo against mutants or less armored personnel.<br>- Don't hoard too much stuff with you. Vodka and food weight a ton, so don't have too much with you. Only loot what you need, or what you can sell quickly for some nice cash. Drop extra stuff to some stash to await your return.<br>- Explore! You may find tons of free items, alternative routes and interesting things. Just remember to save often!</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Which is the best weapon?</b></div></li>
+						 <li ><div class="content">It's hard to tell, speaking of SoC, pistols are weak and you will hardly find anyone using them, but you should not give up on them, they are light weight and as some casual game once said, is faster to change weapon rather than reload, while in AMK some latter ones will put down even the stronger mutant or human, the AS VAL by the statistics should be the best and is actually very good, but more than one Stalker found little problems finishing with just an AK variant or the SIG and the right ammo.</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div ><b>Stick with the game. It gets better, more awesome, and in a way "easier" the further you get! Don't let the beginning discourage you!</b></div></li>
+						 <li ><div >...good hunting, stalker...</div></li>
+						 <li ><div >&nbsp;</div></li>
+					 </div>
+				</section>
+				<section id="tweaks" class="four">
+					 <li id="@1a"><div class="h">Tweaks and Performance Tips</div></li>
+					 <li ><div class="h3">Get the most out of your game</div></li>
+					 <div id="content-inner">
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Find your user.ltx</b></div></li>
+						 <li ><div class="content">Sometimes Steam has two user file locations, but it uses the one shown on the first line in fsgame.ltx in your STALKER install folder. That tells the game where to find user files like user.ltx, saves and log files.</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Steam players</b></div></li>
+						 <li ><div class="content">Disable compatibility mode on the Steam launcher and on the STALKER game. Check to see if your antivirus is being a little too helpful. Turn off Xfire. More info at Steam STALKER sub-forum.</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Measuring FPS</b></div></li>
+						 <li ><div class="content">You can see a FPS-counter and other stats by typing this in the console: rs_stats 1</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Vsync</b></div></li>
+						 <li ><div class="content"><b>IMPORTANT:</b> Enable Vsync in your GPU control panel to limit the framerate. The uncapped framerate in the menu can go into the thousands, wasting hardware usage and potentially killing it.</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Antialiasing</b></div></li>
+						 <li ><div class="content">The AA slider in STALKER SoC does not work, put it all the way down and use <a href="http://mrhaandi.blogspot.it/p/injectsmaa.html">this</a> instead, or force it in your GPU control panel.</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Improve your FPS</b></div></li>
+						 <li ><div class="content">- Lower the Vision and Lighting distance, plus the Object-Quality bar to around 50%. The quality difference is minimal, but FPS improves. Reducing the Grass Density a point or two also may help stuttering outdoors.<br>- In CS and CoP, if you use the Enhanced Full Dynamic mode, set its three specific settings (SSAO, Sun Quality, Sun-shafts) to LOW. You won't notice quality difference, but your performance will skyrocket!</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Increase the grass distance</b></div></li>
+						 <li ><div class="content"><a href="http://kocayine.ru/2013/05/24/increase-the-grass-draw-distance-in-s-t-a-l-k-e-r/">Kocayine's guide</a></div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Stuttering issues</b></div></li>
+						 <li ><div class="content">Use -noprefetch as a launch parameter or type it into the console (~) in-game. This will also improve your loading times.</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Fix your height</b></div></li>
+						 <li ><div class="content">In vanilla SoC/ZRP the player's eye-level is too low compared to other humans by default. You can edit this with ZRP's modifier, in the Actor.ltx tab. Increase it from the default 0.85 to 0.94. Most overhaul mods do fix the player's height by default.</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Head bobbing</b></div></li>
+						 <li ><div class="content">First, edit your FOV using the FOV Switcher to a value of 75. If you still want reduce the head-bobbing, use the cam_inert 0.1 console command. If it applies, you can also use the ZRP modifier or edit effectors.ltx in your gamedata folder.</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <!--			 <li ><div >&nbsp;</div></li>
+						 <li ><div ><b>--</b></div></li>
+						 <li ><div ></div></li>
+						 <li ><div >&nbsp;</div></li>
+						 //-->
+					 </div>
+				</section>
+				<section id="trouble" class="five">
+					 <li id="@1b"><div class="h">Troubleshooting</div></li>
+					 <li ><div class="h3">Common problems one might encounter when modding S.T.A.L.K.E.R.</div></li>
+					 <div id="content-inner">
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>BugTrap, crash to desktop, freeze/lockup?</b></div></li>
+						 <li ><div class="content">Check your Documents/STALKER-SHOC/logs folder for the SOC crash log, other STALKER games use similar STALKER-folders under Documents. Steam users: the game uses the $app_data_root$ path on first line of fsgame.ltx in your STALKER install folder. Find the last few lines of the text file, and copy-paste those in the thread if you want help.</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Updates</b></div></li>
+						 <li ><div class="content">MS Update KB2670838 breaks your DX10/11 games including Clear Sky and Call of Pripyat. You can safely uninstall it.</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Can't find texture 'ui\ui_nvidia_intro'</b></div></li>
+						 <li ><div class="content">Start the game with the command "-nointro"</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Shadows are broken</b></div></li>
+						 <li ><div class="content">A common bug with widescreen monitors, where the shadows of the terrain get “sucked” into the borders of your screen. Open your Console (~ \) while in game and type these two lines:<br>r2_sun_near 20<br>r2_sun_near_border 1</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>There's a weird coloured line on the side of my screen</b></div></li>
+						 <li ><div class="content">Disable that fancy AA you tried in the last section.</div></li>
+						 <li ><div >&nbsp;</div></li>
+			<!--			 <li ><div ><b>--</b></div></li>
+						 <li ><div ></div></li>
+						 <li ><div >&nbsp;</div></li>
+						 -->
+					 </div>
+				</section>
+				<section id="modding" class="four">
+					 <li id="@2"><div class="h">Modding 101</div></li>
+					 <li ><div class="h3">You're entering a world of pain</div></li>
+					 <div id="content-inner">
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>This is not intended as a comprehensive beginner guide!</b></div></li>
+						 <li ><div class="content"><a href="http://steamcommunity.com/sharedfiles/filedetails/?id=121125400#34629">The Zone Manual has got you covered</a></div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>It isn't intended as an advanced guide either!</b></div></li>
+						 <li ><div class="content">Google and the GSC forums are probably your best bets.</div></li>
+						 <li ><div class="content"><a href="http://sdk.stalker-game.com/en/index.php?title=Category:Articles">S.T.A.L.K.E.R. MOD portal</a></div></li>
+						 <li ><div class="content"><a href="http://www.gsc-game.com/main.php?t=community&s=forums&s_game_type=xr&thm_id=5387&sec_id=16">GSC: How to mod STALKER</a></div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>I want to change how fast time goes</b></div></li>
+						 <li ><div class="content">S.T.A.L.K.E.R. - Shadow of Chernobyl\gamedata\config\alife.ltx<br><br>time_factor = x<br>normal_time_factor = x<br>Higher value = faster. Lower value = slower. </div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>I want to go prone when low-crouching</b></div></li>
+						 <li ><div class="content">Edit your config\creatures\actor.ltx file with these values:<br><br>ph_box0_center = 0.0, 0.9, 0.0<br>ph_box0_size = 0.35, 0.9, 0.35<br>ph_box1_center = 0.0, 0.65, 0.0<br>ph_box1_size = 0.35, 0.65, 0.35<br>ph_box2_center = 0.0, 0.2, 0.0<br>ph_box2_size = 0.35, 0.2, 0.35</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>I want to change my carrying weight</b></div></li>
+						 <li ><div class="content">In config/misc you'll find the actor.ltx, and in the config root you'll find system.ltx, and in both config files you'll pretty easily find the variables responsible for weight limit "max_weight".<br>AMK separates the [inventory] section into a separate file, inventory_sect.ltx.</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>I'm sick of the inventory scrolling when dropping stuff</b></div></li>
+						 <li ><div class="content">Open inventory_new.xml, overwite with this:<br><br>dragdrop_bag x="22" y="33" width="340" height="442"<br>cell_width = "25" cell_height="25" rows_num="17" cols_num="12"<br>unlimited="1" group_similar="1"/></div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>I want moar artifacts</b></div></li>
+						 <li ><div class="content">Open inventory_new.xml, overwite with this:<br>dragdrop_belt x="590" y="118" width="410" height="104"<br>cell_width = "40" cell_height="40" rows_num="2" cols_num="10"/></div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>I want to pick up items from x meters away</b></div></li>
+						 <li ><div class="content">Edit take_dist = x in system.ltx</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>I want to detect items from x meters away</b></div></li>
+						 <li ><div class="content">Edit pickup_info_radius = x in actor.ltx</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>I'm afraid of the dark</b></div></li>
+						 <li ><div class="content">Edit light_night.ltx:<br><br>range = 90<br>range_r2= 90<br>color = 0.9,0.9,0.9,0.5<br>color_r2 = 0.9,0.9,0.9,0.5<br>omni_range = 0.5<br>omni_range_r2 = 0.5<br>omni_color = 1.0,1.0,1.0,0.5<br>omni_color_r2 = 1.0,1.0,1.0,0.5<br>spot_angle = 90<br>glow_radius = 0.3</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>I want to run at sanic speeds</b></div></li>
+						 <li ><div class="content">Edit actor.ltx:<br><br>jump_speed = 13.0<br>crouch_coef = 0.65<br>climb_coef = 1.0<br>run_coef = 2.5<br>sprint_koef = 3.0<br>run_back_coef = 3.0<br>walk_back_coef = 3.0<br><br>ph_crash_speed_min = 50<br>ph_crash_speed_max = 150<br>ph_collision_damage_factor = 0.0<br><br>Leap buildings in a single bound?<br>jump_speed = 50.0<br><br>NOTE: notice "walk_back_coef = 3.0"?<br>This means when you drag a body, if you walk backwards you can drag it at running speed!!!!.... just don't run your arse into a sprinboard.</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Remove the ironsights zoom</b></div></li>
+						 <li ><div class="content">Edit all the w_*.ltx files and set scope_zoom_factor = 60 for no zoom.</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Edit blowout frequency (CS and CoP)</b></div></li>
+						 <li ><div class="content">The relevant file is gamedata\config\blowout.ltx which should look like<br>[blowout_period] enabled = X time = Y shift = Z<br>Enabled is on (1) off (0)<br>"Time" is the mean time period measured in (in-game) minutes, for example you want a blowout four times per week then set it to 2520.0<br>"Shift" is the uncertainty about the average period between blowouts. Using in-game minutes, so if you want the period to be a day then it should be 1440, or 720 for half a day</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Remove the <a href="http://i.imgur.com/bZj3e.jpg">hit probability</a></b></div></li>
+						 <li ><div class="content">In weapons.ltx under [bullet_manager] change hit_probability_max_dist from 10 to something like 1000001<br>This increases the distance at which dice rolls takes effect to one that exceeds the distance for any sort of engagement in the game, thus eliminating it.<br>Also, you shouldn't forget to modify the k_dist of each bullet type, and the fire_distance of each weapon to their real world equivalents.<br>Once this is done, none of the bullets will disappear mid-flight. -- FatalFunnel</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <!--<li ><div ><b>--</b></div></li>
+						 <li ><div ></div></li>
+						 <li ><div >&nbsp;</div></li>-->
+					 </div>
+				</section>
+				<section id="soc" class="three">
+					 <li id="@3"><div class="h" >S.T.A.L.K.E.R.: Shadow of Chernobyl</div></li>
+					 <li ><div class="h3">Не понимаю... ничего не понимаю.</div></li>
+					 <div id="content-inner">
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>Patching instructions</b></div></li>
+						 <li ><div class="content">Mods for SoC usually require either 1.0004 or 1.0005/6. This is why reading readmes is a really good idea, as well as any other information you can find. The Steam version is now patched to 1.0006. You'll find the 1.0004 patches in the repository.<br> <a href="./img/downgrade.png">How to downgrade.</a></div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>The STARTER pack</b></div></li>
+						 <li ><div class="content">It contains ZRP, a <a href="http://www.metacognix.com/stlkrsoc/BugsInSTALKER.html">bug-fixing</a> mod with a powerful modifier for the game files, as well a bunch of graphical mods (Textures, shaders and weather overhaul).<br>You can find it in the repo. Refer to the <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=121125400#10895">Zone Manual</a> for installation instructions.</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>AMK</b></div></li>
+						 <li ><div class="content">Done with vanilla/ZRP ? Want some extra challenge and features? Then try out the "defining" Stalker mod, <a href="http://www.amk-team.ru/forum/index.php?showtopic=480">AMK1.4.</a><br><br>This mod changes almost every aspect of the game, from the gameplay to the design, and also adds a lot of new features (blowout, dynamic anomalies, random weather, complex sleep system, artefact modification, stalker IM network, dynamic HUD, detectors, new weapons, quests and a lot of more) as well as improves the game balance.<br><br>Downgrade to 1.0004, then run Amk 1.4 setup, then AMK EN patch final. Install AMK Retranslated last.</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>AMK - Troubleshooting</b></div></li>
+						 <li ><div class="content"><b>Steam/1.0005 patch:</b> you also need to do couple manual tweaks:<br>-First, locate a file called "xrs_grenade.script" in the gamedata/scripts, and delete it.<br>-Next, you need to add a sound-file names "groza_silenced.ogg" into gamedata/sounds/weapons. Either rip it from any other mod, or simply copy ANY soundfile and rename it.<br><br><b>Graphics:</b> You can use same graphical mods found in STARTER PACK with AMK. In case of SWO2.2, remember to apply its own AMK-patch last, or your game will crash!<br>[#FDL] = Full Dynamic Lighting, [#SL] = Static Lighting.<br><br><b>dBodystate CTD:</b> Use <a href="http://pastebin.com/81sNfVfq">one</a> of these <a href="http://pastebin.com/9iZmEfym">two</a> fixes.</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>ZoA - Zone of Alienation</b></div></li>
+						 <li ><div class="content">The <a href="http://www.moddb.com/mods/zone-of-alienation-mod/">AMK-based mod</a> by our very own FatalFunnel and TKGP, play this when you're ready to completely embrace the Zone. It introduces new weapons and ballistics, with a magazine system, improved AI, increased difficulty and offers a more hardcore and realistic gameplay overall. Don't forget to read the <a href="http://pastebin.com/pKBibDLS">FAQ!</a></div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>--</b></div></li>
+						 <li ><div class="content"></div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>--</b></div></li>
+						 <li ><div class="content"></div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>--</b></div></li>
+						 <li ><div class="content"></div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>--</b></div></li>
+						 <li ><div class="content"></div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>--</b></div></li>
+						 <li ><div class="content"></div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>--</b></div></li>
+						 <li ><div class="content"></div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div class="title"><b>--</b></div></li>
+						 <li ><div class="content"></div></li>
+						 <li ><div >&nbsp;</div></li>
+					 </div>
+				</section>
+				 <!--<li ><div ><a href="http://www.deviantart.com/morelikethis/59941546">-Browse Minimal (Black&amp;White)-</a></div></li>
+				 <li ><div ><a href="http://chrfb.deviantart.com/art/ecqlipse-2-PNG-59941546">Chrfb : Ecqlipse 2</a></div></li>
+				 <li ><div ><a href="http://ipapun.deviantart.com/art/Devine-Icons-137555756">Ipapun : Devine</a></div></li>
+				 <li ><div ><a href="http://darkdawg.deviantart.com/art/White-Pixel-Icons-252310560">Darkdawg : White Pixel</a></div></li>
+				 <li ><div ><a href="http://ravmunken.deviantart.com/art/Deshou-ICON-407411478">Ravmunken : Deshou</a> - Part of the Deshou suite.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://www.deviantart.com/morelikethis/254348356">-Browse Minimal (Colored)-</a></div></li>
+				 <li ><div ><a href="http://smuggle559.deviantart.com/art/FudgeIcons-192634912">Smuggle559 : Fudge</a></div></li>
+				 <li ><div ><a href="http://deep3sh.deviantart.com/art/MINIMAL-COLORS-ICONS-RELEASED-335995318">Deep3sh : Minimal Colors</a></div></li>
+				 <li ><div ><a href="http://dakirby309.deviantart.com/art/Metro-UI-Dock-Icon-Set-678-Icons-280724102">Dakirby309 : Metro UI</a></div></li>
+				 <li ><div ><a href="http://jg-visuals.deviantart.com/art/Retrofukation-Icons-102315475">Jg-Visuals : Retrofukation</a></div></li>
+				 <li ><div ><a href="http://zen-nikki.deviantart.com/art/Absolute-32-254348356">Zen-nikki : Absolute 32</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-Miscellaneous- </div></li>
+				 <li ><div ><a href="http://yankoa.deviantart.com/art/MetroStation-183210118">Yankoa : Metro Station (white, blue, and black set)</a></div></li>
+				 <li ><div ><a href="http://lukeedee.deviantart.com/gallery/27068219?offset=0">Lukeedee : Gallery</a></div></li>
+				 <li ><div ><a href="http://ap-graphik.deviantart.com/gallery/12599614?offset=0">Ap-graphik : Gallery</a></div></li>
+				 <li ><div ><a href="http://neteru.deviantart.com/art/Nothing-icons-256409378">Neteru : Nothing</a> - Minimal bitmap font/text based icons.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@4"><div class="h" >Font Rendering</div></li>
+				 <li ><div >Fonts appearing to have a greenish tint or blurry in Firefox/Bblean/Windows? This is due to an acceleration error, probably caused by subpixel rendering or monospace fonts not being supported in smaller sizes. Windows Cleartype also causes issues with EVERY browser, and overall is complete shit compared to Linux or Mac/OSX font rendering. Read <a href="http://en.wikipedia.org/wiki/ClearType">about Cleartype</a> for details on how it works. Consider switching fonts if none of the fixes below work for you, or try and get a version of your font that is NOT &quot;.tff&quot; or true type.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >The best and easiest option in my opinion is to install Mactype or gdipp. These are services that replace Windows Cleartype font rendering with Mac/OSX or Linux font type rendering. Mactype is more customizable and has bolder bolds, while Gdipp is easier to use and works immediately upon install.</div></li>
+				 <li ><div >Go <a href="http://www.askvg.com/how-to-get-mac-os-or-linux-style-font-smoothing-in-windows/">here</a> for details.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Recommended fixes for Firefox/Nightly:</div></li>
+				 <li ><div >In Firefox, type &quot;about:config&quot; in the address bar and hit Enter. Continue after the warning.</div></li>
+				 <li ><div >In the Filter box at the top, type &quot;gfx.direct2d.disabled&quot;. This value will be set to false by default.</div></li>
+				 <li ><div >Right click that line and select Toggle. This will change the value to true. Restart Firefox.</div></li>
+				 <li ><div >You may also need to disable hardware acceleration, which is under the Advanced Options tab. Try the <a href="https://addons.mozilla.org/en-US/firefox/addon/anti-aliasing-tuner/?src=userprofile">Anti-Aliasing Tuner</a> too, if you feel the need for more tweaking.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-Fonts in Bblean: The only fixes I have found documented involve removing anti-alias, or keeping cleartype enabled. Personally I've seen no font rendering issues with bblean, however I've seen it on a few desktops. Usually haxrcorp.tff is the culprit. Use Haxrcorp s8 instead.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-Try editing the font itself to remove cleartype from it completely. Go <a href="http://www.electronicdissonance.com/2010/01/raster-fonts-in-visual-studio-2010.html">here</a> for details.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-Edit registries to disable all font smoothing entirely. Go <a href="http://answers.microsoft.com/en-us/windows/forum/windows_7-desktop/disable-all-font-smoothing-in-windows-7-ie/f180e803-3317-4433-8fd2-63aadaecc2d2">here</a> for details.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-Use Windows Style Builder to disable ClearType for a font of your choice in your visual style. Go to the Theme Editing section in the catalog, and look for &quot;Ave Style Builder&quot; for a guide and download link.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@4a"><div class="h" >Font Recommendations</div></li>
+				 <li ><div >-Sans and Sans Serif Fonts- </div></li>
+				 <li ><div >Fonts best used for general purpose and reading.<a href="http://www.fontsquirrel.com/fonts/list/style/Sans%20Serif"> Browse for more @ Fontsquirrel.com</a></div></li>
+				 <li ><div ><a href="http://en.wikipedia.org/wiki/Sans-serif">Read about Sans-Serif Fonts</a></div></li>
+				 <li ><div ><a href="http://en.wikipedia.org/wiki/Calibri">Calibri</a></div></li>
+				 <li ><div ><a href="http://en.wikipedia.org/wiki/Arial">Arial</a> (originally <a href="http://en.wikipedia.org/wiki/Helvetica">Helvetica</a>)</div></li>
+				 <li ><div ><a href="http://dejavu-fonts.org/wiki/Main_Page">DejaVu</a></div></li>
+				 <li ><div ><a href="http://en.wikipedia.org/wiki/Trebuchet_MS">Trebuchet MS</a>
+				 <li ><div ><a href="http://en.wikipedia.org/wiki/Tahoma_%28typeface%29">Tahoma</a></div></li>
+				 <li ><div ><a href="http://en.wikipedia.org/wiki/Verdana">Veranda</a></div></li>
+				 <li ><div ><a href="http://sourceforge.net/projects/sourcesans.adobe/"</a>Source Sans Pro</a></div></li>
+				 <li ><div ><a href="http://font.ubuntu.com/">Ubuntu</a></div></li>
+				 <li ><div ><a href="http://www.google.com/fonts/specimen/Roboto">Roboto</a></div></li>
+				 <li ><div ><a href="http://www.google.com/fonts/specimen/Droid+Sans">Droid Sans</a></div></li>
+				 <li ><div ><a href="http://www.google.com/fonts/specimen/Open+Sans">Open Sans</a></div></li>
+				 <li ><div ><a href="http://en.wikipedia.org/wiki/Lucida_Grande">Lucidia Grande</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-Monospace Fonts-</div></li>
+				 <li ><div >Fonts best used in coding.<a href="http://www.fontsquirrel.com/fonts/list/classification/monospaced"> Browse for more @ Fontsquirrel.com</a></div></li>
+				 <li ><div ><a href="http://en.wikipedia.org/wiki/Monospaced_font">Read about Monospaced Fonts</a></div></li>
+				 <li ><div ><a href="http://en.wikipedia.org/wiki/Consolas">Consolas</a></div></li>
+				 <li ><div ><a href="http://www.levien.com/type/myfonts/inconsolata.html">Inconsolata</a></div></li>
+				 <li ><div ><a href="http://en.wikipedia.org/wiki/OCR-A_font">OCR-A Font</a></div></li>
+				 <li ><div ><a href="https://github.com/andreberg/Meslo-Font">Meslo</a></div></li>
+				 <li ><div ><a href="http://en.wikipedia.org/wiki/Monaco_%28typeface%29">Monaco</a></div></li>
+				 <li ><div ><a href="http://sourceforge.net/projects/sourcecodepro.adobe/">Source Code Pro</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-Bitmap Fonts-</div></li>
+				 <li ><div >Fonts best used in smaller sizes (8pt and under).<a href="http://www.dafont.com/bitmap.php"> Browse for more @ Dafont.com</a></div></li>
+				 <li ><div ><a href="http://en.wikipedia.org/wiki/Computer_font#Bitmap_fonts">Read about Bitmap Fonts</a></div></li>
+				 <li ><div ><a href="http://www.mediafire.com/download/ge708ykjkpu2kmu/HAXRFONTBUNDLE.rar">HaxrCorp</a> (all variations included in download)</div></li>
+				 <li ><div ><a href="http://www.fonts2u.com/kroeger-05-55.font">Kroeger 5_55</a></div></li>
+				 <li ><div ><a href="http://www.proggyfonts.com/index.php?menu=download">Proggy</a></div></li>
+				 <li ><div ><a href="http://www.dafont.com/pf-tempesta-seven.font">Pf Tempesta 7</a></div></li>
+				 <li ><div ><a href="http://www.tobias-jung.de/seekingprofont/">Profont</a></div></li>
+				 <li ><div ><a href="http://bb4win.sourceforge.net/bblean/awiz.htm">Artwiz Font pack</a> - Features several popular bitmap fonts.</div></li>
+				 <li ><div ><a href="http://www.mediafire.com/?5d7hhve4pet2c76">Cure.se</a> - A version of cure that supports Japanese characters.</div></li>
+				 <li ><div ><a href="http://sourceforge.net/projects/terminus-font">Terminus</a></div></li>
+				 <li ><div ><a href="http://www.bok.net/MonteCarlo/">Monte Carlo</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@5"><div class="h" >BBlean</div></li>
+				 <li ><div >&quot;How did you get your taskbar to be like that?&quot;</div></li>
+				 <li ><div >BBlean is an alternative shell for windows. It takes place of explorer and changes how Windows functions.</div></li>
+				 <li ><div >-PLEASE READ AND RESEARCH BEFORE INSTALLING-</div></li>
+				 <li ><div ><a href="http://bb4win.sourceforge.net/bblean/docs/bblean.htm">Docs</a> - <a href="http://bb4win.sourceforge.net/bblean/">Website</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-Styles and Settings-</div></li>
+				 <li ><div >If you are at ALL confused about how your settings should look, I encourage you to visit the following pages on Github for references:</div></li>
+				 <li ><div ><a href="https://github.com/xDemonessx/dotfiles/tree/master/bblean">xDemonessx</a> - Includes styles and .rc settings like menu.rc and bbleanbar.rc</div></li>
+				 <li ><div ><a href="https://github.com/konabu/bblean">Monochromes Bblean settings</a></div></li>
+				 <li ><div ><a href="https://github.com/hal-ullr/bbLean">Hals styles and settings</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Please read: <a href="http://bb4win.sourceforge.net/basics.html">Getting Started</a> and <a href="http://docs.bb4win.org/FAQ.html">(UN)Official Faq</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >How To: Menus</div></li>
+				 <li ><div ><a href="http://bb4win.sourceforge.net/menu.html">Sourceforge</a> - <a href="http://docs.bb4win.org/index_files/menu.html">Menu Docs</a> - <a href="https://raw.github.com/xDemonessx/dotfiles/master/bblean/Settings/menu.rc">Example Menu</a></div></li>
+				 <div >&nbsp;</div></li>
+				 <li ><div >How To: Styles (colors and themes)</div></li>
+				 <li ><div ><a href="http://bb4win.sourceforge.net/styles.html">Sourceforge</a> - <a href="http://docs.bb4win.org/index_files/styles.html">Style Docs</a> - <a href="https://raw.github.com/xDemonessx/dotfiles/master/bblean/Styles/darkflat">Example Style</a></div></li>
+				 <li ><div >If you're a beginner you can also try bbstylemaker from the bblean menu, or launch the .exe from your bblean directory.<div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >How To: Broams</div></li>
+				 <li ><div ><a href="http://bb4win.sourceforge.net/core_broams.html">Sourceforge</a> - Broams are system commands that are available to you via the Bbkeys plugin. Bbkeys is similar to Auto Hot Key, in that you can manage certain window actions and workspaces with them. To view your bbkey.rc settings, simply navigate to Settings>Edit>bbkeys.rc. The Sourgeforge link details which commands you can use, and should be self explanatory.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >About: Plugins</div></li>
+				 <li ><div >99.9% OF ALL PLUGINS LISTED WILL NOT FUNCTION WITH WINDOWS 7</div></li>
+				 <li ><div ><a href="http://bb4win.sourceforge.net/plugins.html">Sourceforge</a> - <a href="http://docs.bb4win.org/index_files/plugins.html">Plugin Docs</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-Using Windows Classic + 3DCC Themes for Bblean-</div></li>
+				 <li ><div >3DCC is a small tool which allows you complete control over your windows classic color schemes, much more so than whats available through the standard windows display preferences.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Installing 3DCC:</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >&nbsp; 1. Put bbColor3dc.dll in your blackbox\plugins directory.</div></li>
+				 <li ><div >&nbsp; 2. In your bblean menu, go to Settings>Config>Plugins and select "Add Plugin".</div></li>
+				 <li ><div >&nbsp; 3. Navigate to the blackbox\plugins directory, and select "bbColor3dc.dll".</div</li>
+				 <li ><div >&nbsp; 4. Load the plugin from the Settings>Config>Plugins menu.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >To use 3DCC Themes with bblean, you need to make a folder in your bblean/styles directory named &quot;3dc&quot;. After creating a theme with the program, save the file in the newly created 3dc folder. Make sure the 3dc file has the same name as your style. For example, bb_crim.3dc to work alongside bb_crim.style. You can then apply the theme by loading your style via the bblean menu. 3dc is intended for use along Windows Classic visual styles. If you get confused, a readme can be found in your bblean/plugins/bbColor3dc folder.</div></li>
+				 <li ><div ><a href="http://dl.dropbox.com/u/1840925/3dcc4-en.zip">Download</a> - <a href="http://pixelfuckers.org/submissions/934">Color Pack</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Have a general question about Bblean? It might be answered already, check below:</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@5a"><div class="h" >Bblean FAQ</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Q: Certain task tray icons I normally see aren't appearing (battery/wifi).</div></li>
+				 <li ><div >A: Install bblean as a shell.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Q: How do I remove taskbar/tray/status icons?</div></li>
+				 <li ><div >A: The easiest way is to shift+right click the icons on your bar. Otherwise, ctrl+right click your bblean bar. Edit settings, and find this line "bbleanbar.item: Tray". Put a &quot;!&quot; in front of it so they won't load. <a href="https://raw.github.com/xDemonessx/dotfiles/master/bblean/Settings/bbLeanBar.rc">Example</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Q: How to I hide these workspace names (alpha) and the taskbar arrows?</div></li>
+				 <li ><div >A: Edit your bbleanbar.rc and put a &quot;!&quot; infront of these lines: </div></li>
+				 <li ><div >bbleanbar.item: WorkspaceLabel</div></li>
+				 <li ><div >bbleanbar.item: WorkspaceButtonL</div></li>
+				 <li ><div >bbleanbar.item: WorkspaceButtonR</div></li>
+				 <li ><div >bbleanbar.item: WindowButtonL</div></li>
+				 <li ><div >bbleanbar.item: WindowButtonR</div></li>
+				 <li ><div ><a href="https://raw.github.com/xDemonessx/dotfiles/master/bblean/Settings/bbLeanBar.rc">Example</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Q: How do I remove the side bars/slits/analog clock (etc)?</div></li>
+				 <li ><div >A: Unload the plugins under your configuration. The names are self explanatory.</div></li>
+				 <li ><div >Settings&gt;Config&gt;Plugins&gt;Load/Unload</div></li>
+				 <li ><div >You may also edit your plugins.rc and comment out each plugin manually with a &quot;!&quot;</div></li>
+				 <li ><div >Settings&gt;Config&gt;Plugins&gt;Edit plugins.rc - <a href="https://raw.github.com/xDemonessx/dotfiles/master/bblean/Settings/plugins.rc">Example</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Q: My Volume keys on my keyboard stopped working when I installed bblean. Is there a fix?</div></li>
+				 <li ><div >A: Yes. Some kind anons found a fix for it that works, however it involves some scripting with Auto Hot Key. If you are unfamiliar, see the window tiling/autohotkey section. </div></li>
+				 <li ><div >First, download NirCMD <a href="http://www.nirsoft.net/utils/nircmd.html">here</a>. You can find links at the bottom of the page.</div></li>
+				 <li ><div >Extract the exes to your Windows directory (C:\Windows).</div></li>
+				 <li ><div >Create or add the following lines to your Auto Hot Key Script:</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Volume_Up::</div></li>
+				 <li ><div >run nircmd.exe changesysvolume 2000</div></li>
+				 <li ><div >return</div></li>
+				 <li ><div >Volume_Down::</div></li>
+				 <li ><div >run nircmd.exe changesysvolume -2000</div></li>
+				 <li ><div >return</div></li>
+				 <li ><div >Volume_Mute::</div></li>
+				 <li ><div >run nircmd.exe mutesysvolume 2</div></li>
+				 <li ><div >return</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >The same method with nircmd also applies to bbkeys. The code for bbkeys would look something like this: </div></li>
+				 <li ><div >KeyToGrab(Num9), &nbsp;WithModifier(Win), WithAction(ExecCommand), DoThis(C:\Blackbox\usr\bin\nircmd\nircmd.exe changesysvolume -2000)</div></li>
+				 <li ><div >KeyToGrab(Num0), &nbsp;WithModifier(Win), WithAction(ExecCommand), DoThis(C:\Blackbox\usr\bin\nircmd\nircmd.exe changesysvolume 2000)</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Just edit the key you want to use for volume controls, save the .rc and restart blackbox. If you wanted to use the buttons or sliders on a media keyboard, use bbkeyhook to define them.</div></li>
+				 <li ><div >Run the script. You an also compile the script with Auto Hot Key, and drop it in your windows Startup folder. This will allow Windows to run it automatically on boot. Copy the compiled .exe to C:\Users\"username"\AppData\Roaming\Microsoft\Window s\Start Menu\Programs\Startup.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Q: How do I extend the width of my bbleanbar?</div></li>
+				 <li ><div >A: Ctrl+Right click&gt;config&gt;Width percent. </div></li>
+				 <li ><div >Alternatively, edit the bbleanbar.rc by selecting &quot;Edit settings&quot; and edit the bbLeanBar.widthPercent value.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Q: I want my bbleanbar to stretch across both monitors. How do I do this?</div></li>
+				 <li ><div >A: There are two ways to do this. The easiest (and recommended to those with equal resolution monitors) is to edit your bbleanbar.rc settings and override the max width percent by changing the value of "bbLeanBar.widthPercent" from 100 to 200. If you have uneven monitors (i.e. 1440x900 and 1366x768) you would use a value closer to 170 or so. Alternatively you can load in a separate bbleanbar and drag it to your other monitor. You can simply clone your current settings. To do this, follow these steps:</div></li>
+				 <li ><div >Go to your bblean installation directory. Open the plugins folder, and find the bbLeanBar folder.</div></li>
+				 <li ><div >Copy + paste it in the plugins directory, and rename the folder to &quot;bbleanbar2&quot;. </div></li>
+				 <li ><div >Visit Settings&gt;Configuration&gt;Plugins, and edit plugins.rc</div></li>
+				 <li ><div >Add the name of your new bar under the current bblean bar entry. It should look like this:</div></li>
+				 <li ><div ># - Integrated toolbar with tasks and tray</div></li>
+				 <li ><div >plugins\bbLeanBar\bbLeanBar.dll</div></li>
+				 <li ><div >plugins\bbLeanBar2\bbLeanBar.dll</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Save As plugins.rc</div></li>
+				 <li ><div >Restart blackbox.</div></li>
+				 <li ><div >The bar should appear automatically, if not you should now have the option to load it within the plugins menu. </div></li>
+				 <li ><div >Repeat the steps provided for however many you need. Please note: ctrl+right click your current bbleanbar to drag it around if you aren't seeing the new bar load. Chances are it loaded on top of the current bar, since you cloned your settings.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Q: My Windows start button/taskbar is still appearing/glitching and getting in the way. How do I get rid of it?</div></li>
+				 <li ><div >A: Install BBlean as a shell. If there is still an issue, click <a href="http://docs.bb4win.org/FAQ.html#Ic">here</a>.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Q: I've installed BBlean as a shell, how do I set my wallpaper?</div></li>
+				 <li ><div >A: You can do so by putting your wallpapers directory and image name in your current styles .rc settings manually, or by using bbstylemaker&gt;other&gt;image file name. </div></li>
+				 <li ><div >Example:&quot;D:\pictures\wallpapers\wallpapername.png&quot;</div></li>
+				 <li ><div >Alternatively, if you'd like to continue to use the same windows personalization settings for your wallpaper, you can do so by navigating to: blackbox&gt;configuration&gt;graphics&gt;uncheck &quot;enable background&quot;.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Q: Japanese characters aren't displaying. What do?</div></li>
+				 <li ><div >A: Under configuration, visit Misc&gt;Use UTF-8 Encoding. Restart blackbox.</div></li>
+				 <li ><div >(Still not displaying? Edit your blackbox.rc in notepad++. Change the encoding to UTF-8)</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Q: Firefox/my application window is weird looking/overlapping and has a flickering bar. What do?</div></li>
+				 <li ><div >A: Unload/disable/uncheck/toggle bbleanskin under your configuration.</div></li>
+				 <li ><div >(settings&gt;config&gt;bbleanskin&gt;toggle skin)</div></li>
+				 <li ><div >(settings&gt;config&gt;plugins&gt;load/unload&gt;bbleanskin) </div></li>
+				 <li ><div >If you still want the skin enabled, do the following:</div></li>
+				 <li ><div >Put these in your Exclusions for firefox/nightly:</div></li>
+				 <li ><div >&quot;firefox.exe&quot;</div></li>
+				 <li ><div >&quot;xul.dll:MozillaHiddenWindowClass&quot;</div></li>
+				 <li ><div >&quot;xul.dll:MozillaWindowClass&quot;</div></li>
+				 <li ><div >For Google Chrome, put: &quot;chrome.exe&quot;</div></li>
+				 <li ><div >To turn bbleanskin off permanently, you can manually comment it out in your exclusions (blackbox&gt;bbleanskin&gt;edit exclusions to open the .rc). Just put a &quot;!&quot; in front of &quot;plugins\bbLeanSkin\bbLeanSkin.dll&quot;. You can always uncomment it later if needed.</div></li>
+				 <li ><div >To learn more about Skinning Exceptions with bbLean, read this thread on how to find what programs/elements are needed to add to your exceptions: <a href="http://www.lostinthebox.com/viewtopic.php?f=3&t=2420"> Lost in the Box : Skinning Exceptions</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Q: My Rainmeter skin is overlapping with my bbleanbar, what do?</div></li>
+				 <li ><div >A: Change the width% of your bblean bar to match your skin. If you are using bb_bar, load</div></li>
+				 <li ><div >the background bar on &quot;normal&quot;, and set the bb_bar to &quot;topmost&quot; via your rainmeter settings.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Q: I want a 12 hour clock.</div></li>
+				 <li ><div >A: Change your clock format to &quot;%I:%M&quot;</div></li>
+				 <li ><div >For additional time and date formats, visit: <a href="http://bb4win.sourceforge.net/bblean/docs/bblean_details.htm#Clock_Formatting">Clock Formatting</a></div></li>
+				 <li ><div >If you want to completely remove the clock, leave the clock format window blank or put a &quot;!&quot; in front of &quot;bbleanbar.item: Clock&quot; in your bbleanbar.rc settings.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Q: Google Chrome is lagging/crashing on certain webpages ever since I started using Bblean. Whats going on?</div></li>
+				 <li ><div >A: This is a pretty widespread issue with Flash. I don't know why its so often reported/linked with Bblean, but the root of the problem is flash+Chrome. To fix this, navigate to:</div></li>
+				 <li ><div >chrome://plugins/ &gt; click details &gt; disable Shockwave Flash 11.5 r31</div></li>
+				 <li ><div >Make sure you disable the correct version.</div></li>
+				 <li ><div >For bug tracking and other reports on this bug, click <a href="http://code.google.com/p/chromium/issues/detail?id=161307">here</a>.</div></li>
+				 <li ><div >You can also try navigating to: chrome://flags/ and disabling &quot;GPU compositing on all pages&quot; and &quot;Threaded compositing&quot;. This has been reported as a successful fix.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@6"><div class="h" >Cursors</div></li>
+				 <li ><div >-Minimal (Black&amp;White)</div></li>
+				 <li ><div ><a href="http://akirafinn.deviantart.com/art/Cursor-Primus-Light-and-Dark-375439409">Akirafinn : Primus</a></div></li>
+				 <li ><div ><a href="http://outofashion.deviantart.com/art/token-light-inspired-cursors-208874087">Outofashion : Token Grey</a></div></li>
+				 <li ><div ><a href="http://hitman7112.deviantart.com/art/Token-Cursor-s-155620953">Hitman7112 : Token Dark and Light</a></div></li>
+				 <li ><div ><a href="http://teft.deviantart.com/art/Obsidian-Cursor-set-78972293">Teft : Obsidian</a></div></li>
+				 <li ><div ><a href="http://firstfooter.deviantart.com/art/polar-cursor-theme-1-3-28466628"> Firstfooter : Polar</a></div></li>
+				 <li ><div ><a href="http://killerbeat.deviantart.com/art/Black-Royale-Cursor-Pack-156163616">Killerbeat : Black Royale</a></div></li>
+				 <li ><div ><a href="http://drunkensandwich.deviantart.com/art/Contrast-Cursor-Set-199500499">Drunkensandwich : Contrast</a></div></li>
+				 <li ><div ><a href="http://exsess.deviantart.com/art/Metro-X2-Animated-Cursor-Set-267431664">Exesess : Metro</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-Colors-</div></li>
+				 <li ><div ><a href="http://ukintel.deviantart.com/art/Aero-Cursor-Pack-9-Colours-56422027">Ukintel : Aero 9 Colors</a></div></li>
+				 <li ><div ><a href="http://nait0.deviantart.com/art/NB-Cursor-Pack-Updated-97474112">Nait0 : NB Pack</a></div></li>
+				 <li ><div ><a href="http://efox-hun.deviantart.com/art/EXTENZA-PRO-cursor-pack-166319002">Efox-hun : Extenza Pro</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-Silly + Miscellaneous- </div></li>
+				 <li ><div ><a href="http://anime-rai.deviantart.com/art/Miku-Hatsune-Cursor-300596603">Anime-rai : Miku Hatsune</a></div></li>
+				 <li ><div ><a href="http://strawberrydinosaur.deviantart.com/art/Nyan-Cat-Cursor-213697684">Strawberrydinosaur : Nyan Cat</a></div></li>
+				 <li ><div ><a href="http://cursed-midna.deviantart.com/art/pikachu-cursor-159265339">Cursed-midna : Pikachu</a></div></li>
+				 <li ><div ><a href="http://whitefox-freefire.deviantart.com/art/Navi-Cursor-49983642">Whitefox-freefire : Navi</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@7"><div class="h" >Music Software*** </div></li>
+				 <li ><div ><a href="http://www.winamp.com/Winamp">Winamp</a> - It just works. Has compatibility for most formats by default and is easy to customize. It's easy to achieve a simple, sleek, and minimal look. Great for beginners.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://browse.deviantart.com/customization/skins/media/winamp/">-Browse Winamp Skins-</a></div></li>
+				 <li ><div ><a href="http://cyantific.deviantart.com/art/Chiral-Winamp-51936332">Cyantific : Chiral</a></div></li>
+				 <li ><div ><a href="http://x-spirit.deviantart.com/art/Mindich-Classic-107299139">X-spirit : Mindich</a></div></li>
+				 <li ><div ><a href="http://nylons.deviantart.com/art/Exeed-Winamp-Classic-19353700">Nylons : Exeed</a></div></li>
+				 <li ><div ><a href="http://wingnome-xp.deviantart.com/art/TangoFancyClearlooks-67587428">Wingnome-xp : Tango</a></div></li>
+				 <li ><div ><a href="http://krissirk.deviantart.com/art/play-for-winamp-133242138">Krissirk : Play</a></div></li>
+				 <li ><div ><a href="http://dubbb.deviantart.com/art/IVI-for-winamp-116625001">Dubbb : IVI</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://www.aimp.ru/index.php?do=features">Aimp3</a> - It just works. Has compatibility for pretty much every format out of the box. Offers a few plugins and is user friendly. Easier to customize than Foobar 2000, and has a standalone skin editor. A great option for those who prefer customizing skins with Photoshop and images rather than code.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://browse.deviantart.com/customization/skins/media/aimp/">-Browse Aimp3 Skins-</a></div></li>
+				 <li ><div ><a href="http://scope10.deviantart.com/art/Aimp3-5-ncmpcpp-327309040">Scope10 : Aimp3 Ncmpcpp Mod</a></div></li>
+				 <li ><div ><a href="http://scope10.deviantart.com/art/Ladient-Aimp3-5-skin-386343740">Scope10 : Ladient </a></div></li>
+				 <li ><div ><a href="http://hiuhiu314.deviantart.com/art/ElegantBlue-380369578">Hiuhiu314 : Elegant Blue</a></div></li>
+				 <li ><div ><a href="http://yamshikoff.deviantart.com/art/Metro-for-AIMP3-v3-Final-279912238">Yamshikoff : Metro for Aimp3</a></div></li>
+				 <li ><div ><a href="http://creative5.deviantart.com/art/Zune-zune-260768350">Creative5 : Zune</a></div></li>
+				 <li ><div ><a href="http://merydev.deviantart.com/art/Bezimeni1-for-AIMP3-258366879">Merydev : Bezimeni1</a></div></li>
+				 <li ><div ><a href="http://merydev.deviantart.com/art/MetalikGlass-Light-for-AIMP3-258995954">Merydev : Metalik Glass</a></div></li>	         
+				 <li ><div ><a href="http://redix90.deviantart.com/art/Epilogue-322878857">Redix90 : Epilogue</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://www.foobar2000.org/">Foobar2000</a> - (Probably)The most popular music player. Offers a large library of plugins, and the most diverse set of customizable skins. Panels in Foobar can also be scripted with Java. Recommended for advanced users. Looking for the Foobar 2000 Pastebin FAQ page? <a href="http://pastebin.com/QbGNnzsZ">Click here</a>.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://browse.deviantart.com/customization/skins/media/foobar2000/">-Browse Foobar 2000 Skins-</a></div></li>
+				 <li ><div ><a href="http://twnsnd.deviantart.com/art/foobar-ncmpcpp-mod-289083149">Twnsnd : Ncmpcpp Mod</a></div></li>
+				 <li ><div >Alternative .fcl by Mez!!pDd+L0POgts: <a href="http://www.mediafire.com/?cehnjd0b6lz55el">[link]</a></div></li>
+				 <li ><div >Since this is the most popular skin, I've gone into some detail on how to tweak it to your liking. Click <a href="http://pastebin.com/QbGNnzsZ">here</a>.</div></li>
+				 <li ><div ><a href="http://hora-hora.deviantart.com/art/slim-foo-302340930">Hora-hora : Slim Foo</a></div></li>
+				 <li ><div ><a href="http://nomnomking.deviantart.com/art/DSAS-Durable-Superb-Allround-Sexy-Skin-406961999">Vibex : DSAS</a></div></li>
+				 <li ><div ><a href="http://steric.deviantart.com/art/Absolute-Glass-3-198756638">Steric : Absolute Glass</a></div></li>
+				 <li ><div ><a href="http://mreikichi.deviantart.com/art/Foo-Mn-149936712">Mreikichi : Foo MN</a></div></li>
+				 <li ><div ><a href="http://thesmurth.deviantart.com/art/NightLife2-for-foobar2000-158444439">Thesmurth : Nightlife</a></div></li>
+				 <li ><div ><a href="http://thedarkerone.deviantart.com/art/fooPure-Slightly-Tweaked-301100276">Thedarkerone : Foo Pure</a></div></li>
+				 <li ><div ><a href="http://lassekongo83.deviantart.com/art/FooBear-65777342">Lassekongo83 : FooBear</a></div></li>
+				 <li ><div ><a href="http://fanco86.deviantart.com/art/MonoLite-122756120">Fanco86 : Monolite</a></div></li>
+				 <li ><div ><a href="http://aaron-a-arts.deviantart.com/art/1-players-UPDATED-11-20-269566764">Aaron-a-arts : +1</a></div></li>
+				 <li ><div ><a href="https://github.com/SirJohnLemon">Mizule and Vasco</a> - Some skins by a resident /wg/ poster, Sir John Lemon</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >There's always <a href="https://www.apple.com/itunes/?cid=wwa-us-kwg-itunes">iTunes</a> too, if thats your thing!</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@15"><div class="h" >Image and Video Software</div></li>
+				 <li ><div ><a href="http://potplayer.en.softonic.com/">Pot Player</a></div></li>
+				 <li ><div ><a href="http://twnsnd.deviantart.com/art/pix-for-potplayer-285181615">Pix for Potplayer</a> (skin)</div></li>
+				 <li ><div >Pot Player can be more CPU intensive than most video players, but performs better with larger files as a result. It can also playback music, has a built in visualizations, and native support for subtitles.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://mpc-hc.sourceforge.net/">MPC-HC</a></div></li>
+				 <li ><div >To change the ui, press &quot;1,2,3&quot; etc. It just works. (Video player) </div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://www.honeyview.org/">Honey View</a></div></li>
+				 <li ><div >The best option for image viewing in compressed archives (zip + rar), and ideal for Manga readers. Some skins are available on the webpage. Can default for JPG, BMP, and GIF.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://www.utilhaven.com/fi/">First Impression</a> (RIP)</div></li>
+				 <li ><div ><a href="http://www.mediafire.com/download/bjq3c342yv2gj6h/ime%282%29.exe">FIXED DOWNLOAD</a></div></li>
+				 <li ><div >Thanks Yuno / !YanderexME for bringing this to my attention. The creator sadly died, and thus the domain and servers in relation to Impression Eyes with it. This download comes with a bypass for the trial version/activation servers.</div></li>
+				 <li ><div >Lightweight and fast image viewer that has no visible/traditional ui. Images are viewed through mouse menus and hotkeys.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://stereopsis.com/vjpeg/">Vjpeg</a></div></li>
+				 <li ><div >Lightweight alternative image viewer for Windows. Can default for JPG, BMP, and GIF, and even PSD. Recommended more for viewing larger images like photos.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://code.google.com/p/stb-imv/">stb-imv</a></div></li>
+				 <li ><div >Lightest and fastest image viewer/browser inspired by vjpeg. It offers a very minimal interface, and the current executable is about 70KB uncompressed. </div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@8"><div class="h" >Rainmeter*** </div></li>
+				 <li ><div ><a href="http://rainmeter.en.softonic.com/">Website</a></div></li>
+				 <li ><div >Note: I've attempted to split these by category, but most skins are suites that come with date/time/nowplaying. You can still edit out parts of each, and use these as a base to make your own. Keep it simple! Some of these skins may require you to extract them to your skins directory (no rmskinpackage). The default skins directory is: C:\Users\&quot;YOURUSERNAME&quot;\Documents\Rainmeter\Skins </div></li>
+				 <li ><div >No spaceship HUDs, please!</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-System Monitoring-</div></li>
+				 <li ><div ><a href="http://hora-hora.deviantart.com/art/bb-bar-327527424">Hora-hora : BB Bar</a></div></li>
+				 <li ><div ><a href="http://hora-hora.deviantart.com/art/system-combo-302316946">Hora-hora : Syscombo</a></div></li>
+				 <li ><div ><a href="http://demonessyume.deviantart.com/art/bb-RainPower-1-0-354718015">xDemonessx : BB Rain Power</a></div></li>
+				 <li ><div ><a href="http://abu46.deviantart.com/art/mii-se7en-bar-FINAL-215055127">Abu46 : Mii 7 Bar</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-Clocks/Date/Weather-</div></li>
+				 <li ><div ><a href="http://lilshizzy.deviantart.com/art/Rainmeter-Elegance-2-244373054">Lilshizzy : Elegance 2</a></div></li>
+				 <li ><div ><a href="http://lilshizzy.deviantart.com/art/Rainmeter-Encoded-v1-2-3-215992941">Lilshizzy : Encoded</a></div></li>
+				 <li ><div ><a href="http://flyinghyrax.deviantart.com/art/Elementary-Rainmeter-1-5-1-244031084">Flyinghyrax : Elementary</a></div></li>
+				 <li ><div ><a href="http://iron2000.deviantart.com/art/Minimet-278938550">Iron200 : Minimet</a></div></li>
+				 <li ><div ><a href="http://hello-123456.deviantart.com/art/Pricedown-Rainmeter-Clock-185263055">Hello-123456 : Pricedown</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-Now Playing/Music Skins-</div></li>
+				 <li ><div ><a href="http://lgv91.deviantart.com/art/Loita-265348874">Lgv91 : Loita</a></div></li>
+				 <li ><div ><a href="http://toastbrotpascal.deviantart.com/art/CLN-216978446">Toastbrotpascal : CLN</a></div></li>
+				 <li ><div ><a href="http://skypyre.deviantart.com/art/HUD-Now-Playing-261747353">Skypyre : Taboo Vision (Re encoded)</a></div></li>
+				 <li ><div ><a href="http://gazettefreak.deviantart.com/art/minima-NowPlaying-1-1-for-Rainmeter-288368191">Gazettefreak : Minima</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-Just Weather-</div></li>
+				 <li ><div ><a href="http://demonessyume.deviantart.com/art/RetroMox-Updated-341363840">xDemonessx : RetroMox (Updated)</a></div></li>
+				 <li ><div ><a href="http://jetpac.deviantart.com/art/Weather-37639007">Jetpac : Weather</a></div></li>
+				 <li ><div ><a href="http://albinozz.deviantart.com/art/ToxxWeather-125347819">Albinozz : ToxxWeather</a></div></li>
+				 <li ><div ><a href="http://flyinghyrax.deviantart.com/art/Do-I-Need-a-Jacket-264544648">Flyinghyrax : Do I Need A Jacket?</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-Miscellaneous-</div></li>
+				 <li ><div ><a href="http://hekmatyar.deviantart.com/art/Sword-Art-Online-v1-5-Wallpaper-341124309">Hekmatyar : Sword Art Online</a> - HUD like interface</div></li>
+				 <li ><div ><a href="https://github.com/childbearinghips/rainwaifu">Gin and Sean : Rainwaifu</a> - Interactive "console" type skin with customizable pixel art and info.</div></li>
+				 <li ><div ><a href="http://www.mediafire.com/download/t3xfqv31994xz9q/Shadow_1.0.rmskin">Shadow</a> - Makeshift taskbar shadow.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@8a"><div class="h" >Rainmeter FAQ</div></li>
+				 <li ><div >Editing Rainmeter skins is easy when you get the hang of it. </div></li>
+				 <li ><div >Here's some basic information for starters:<a href="http://docs.rainmeter.net/manual/getting-started"> Getting Started</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Q: I downloaded a skin for my music, but the music is not displaying. What do?</div></li>
+				 <li ><div >A: It's probably not set for your music player. You need to edit the skin. Manage&gt;Edit your skin&gt;find the line where it says &quot;Player Name&quot; or &quot;player&quot; in the code, and enter the name of your player. Valid player names: iTunes, Winamp, Foobar2000. iTunes may require an additional plugin. The use of &quot;CAD&quot; (for foobar) requires an additional plugin (<a href="http://www.mediafire.com/?zukdudweyymc93c/">foo_cad.dll</a>). Download it and place it in your components directory. You can substitute CAD for the normal player name, however you have to edit the plugin from foo_cad.dll in the skin to NowPlaying.dll.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Q: Some of these dates/times aren't set in a format I like. How can I change it?</div></li>
+				 <li ><div >A: Visit the Rainmeter documents on time formatting <a href="http://docs.rainmeter.net/manual/measures/time">here</a>, and read about &quot;Format Codes&quot;. </div></li>
+				 <li ><div >(Protip: These format codes also apply to the clock format in BBlean.)</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Q: How do I find my &quot;Weather Code&quot;?</div></li>
+				 <li ><div >A: This depends on the skin. First, open the skin to edit it. Find the Weather measure (usually [mWeather] and see what the URL is. It would look like this - </div></li>
+				 <li ><div >For Yahoo: http://weather.yahooapis.com/forecastrss?p=#WeatherCode#&amp;u=#Unit# </div></li>
+				 <li ><div >For Weather.com : http://xml.weather.com/weather/local/#WeatherCode#?cc=*&amp;unit=#Unit#&amp;dayf=6</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Click <a href="http://aspnetresources.com/tools/locid.aspx">here</a> and search by location name, not zip code.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Additional Details and further explanation available via Rainmeter documentation (<a href="http://docs.rainmeter.net/tips/webparser-weather-location-code">here</a>).</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@9"><div class="h" >Start Pages</div></li>
+				 <li ><div ><a href="http://shourijo.deviantart.com/art/Soft-Google-Start-Page-299092141">Shourijo : Google Soft</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://www.mediafire.com/?mab5ic0dyaw4ldb">Ahoka : Start Page?</a> - That pixely-square dial styled page made with java.</div></li>
+				 <li ><div >Download includes some popular links already. Image reference for setting it up is <a href="http://www.gbgl-hq.com/demoness/Start.Page.Visual.Reference.png">here</a>.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="https://github.com/benwaffle/Homepage">benwaffle : Homepage</a> - a fancier version of Ahokas dial-styled start page with more animations</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="https://github.com/ok100/homepage.py">Ok100 : Python Start Page</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://folter-x.deviantart.com/art/start-page-138905304">Folter-x : Start Page</a> - Looks almost the same as the page above, just uses html.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@10"><div class="h" >FireFox</div></li>
+				 <li ><div >-ESSENTIALS FOR GETTING STARTED-</div></li>
+				 <li ><div ><a href="http://www.logicalincrements.com/firefox/">/g/'s Firefox Guide</a> - Now an interactive webpage!</div></li>
+				 <li ><div ><a href="https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/">Install Greasemonkey</a></div></li>
+				 <li ><div ><a href="https://addons.mozilla.org/en-US/firefox/addon/stylish/">Install Stylish</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Additional Addons and Extentions:</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="https://addons.mozilla.org/en-us/firefox/addon/dom-inspector-6622/">DOM Inspector</a></div></li>
+				 <li ><div >DOM Inspector is a tool that can be used to inspect and edit the live DOM of any web document or XUL application. The DOM can be navigated using a two-paned window displaying a variety of different views on the document and all nodes within.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="https://addons.mozilla.org/en-US/firefox/addon/firefox-4-ui-fixer/">UI Fixer</a></div></li>
+				 <li ><div >Change location of Status Bar Icons, Firefox Menu Button and Menu Bar and more.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="https://addons.mozilla.org/en-US/firefox/addon/hide-caption-titlebar-plus-sma/">Hide Caption Titlebar Plus</a></div></li>
+				 <li ><div >Maximize your screen space by controlling the presence of Firefox window Title-bar (Caption) and borders! Hide FF's caption with 'smart' options, *optional* custom caption and resizers. - Works with ChromiFox-like themes.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="https://addons.mozilla.org/en-us/firefox/addon/tabs-always-in-titlebar/">Tabs in Titlebar</a></div></li>
+				 <li ><div >Moves tabs into the titlebar in a normal (restored) window. Make sure that 'Menu Bar' is hidden and 'Tabs on Top' option is selected. You can access these options by right clicking on a toolbar in Firefox.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="https://addons.mozilla.org/en-us/firefox/addon/theme-font-size-changer/">Theme font and size changer</a></div></li>
+				 <li ><div >Theme Font &amp; Size Changer lets you change the global font size and font family used for the user interface in Firefox. Design your browser with your favorite font. (WILL OVERWRITE YOUR CSS)</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="https://addons.mozilla.org/en-us/firefox/addon/anti-aliasing-tuner/">Anti-aliasing Tuner</a></div></li>
+				 <li ><div >May help adjust bad font rendering.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="https://wiki.mozilla.org/QA/Automation_Services/Projects/Addons/NightlyTesterTools">Nightly Tester Tools</a></div></li>
+				 <li ><div >Advanced tools for Nightly users</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="https://www.eff.org/https-everywhere/">HTTPS Everywhere</a></div></li>
+				 <li ><div >Forces the use of "https" secure connections whenever possible.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@10a"><div class="h" >FireFox (Browser) Css</div></li>
+				 <li ><div ><a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets">Read about Cascading Style Sheets</a></div></li>
+				 <li ><div ><a href="http://w3schools.com/css/default.asp">Learn to write your own CSS</a></div></li>
+				 <li ><div ><a href="http://www.gbgl-hq.com/demoness/FF_CSS_Installation_Guide.png">Firefox Stylish and CSS Guide</a></div></li>
+				 <li ><div >Once installed, make sure you use UI Fixer (see above additional addons) or FireFox's built in customizing menu (right click &gt; customize on main title bar) to drag the elements you want to keep or move around. The url bar should be dragged up top to the title bar alongside the tabs with most of these styles in order to achieve the slimmest look. Drag all elements and buttons from the navigation bar before removing it. I recommend you place your addons in the addon bar if you want to access them later. </div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >More resources on creating your own css here: <a href="http://gwiki.xach.org/index.php/Firefox_ricing">/g/ Wiki : Firefox Ricing</a> - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">Mozilla Dev : CSS Reference</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://pastebin.com/hRpejj6h">Ahokas for Appows</a> - Super slim and the most common.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="https://raw.github.com/seaweedchan/dotfiles/master/Userstyles/fxchrome">Seaweeds for FX Chrome</a> - Makes the tabs look chrome-ish, managable not-super-slim CSS thats more on the functional side yet still manages to be somewhat minimal. Good to use with Chrome-fx and aero themes.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="https://github.com/konabu/firefox/blob/master/CSS.txt">Monochomes for Sombras</a> - A different take on Ahokas.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://pastebin.com/xrBF8DtH">!//S..MYON.s (Puffins)</a> - Another take on what Ahoka authored.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="https://github.com/xDemonessx/dotfiles/tree/master/Browser%20Css">Shiros CSS collection</a> - Various themes, transparent and bright themes suggested.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="https://github.com/hdni/Fleche">HDNIs "Fleche"</a> - see under Firefox in the readme.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >More versions of Ahokas for Appows - <a href="http://pastebin.com/aXxX3LE1">[1]</a> - <a href="http://pastebin.com/NTj5PNEk">[2]</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-CSS Snippets-</div></li>
+				 <li ><div >Some solutions to common questions and issues with browser CSS may be reviewed at the following link. Please read the commented lines "/* */" for details about what each line does. <a href="http://pastebin.com/z4hmAWy2">Click Here</a>.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@10b"><div class="h" >4chan Userstyles + Userscripts</div></li>
+				 <li ><div >What is a Userscript?</div></li>
+				 <li ><div >A userscript is a piece of JavaScript code executed on a webpage. Primarily it modifies the behavior of a webpage, but certain parts of the webpages appearance may be altered.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >What is a Userstyle? </div></li>
+				 <li ><div >Userstyles allow the user to customize fonts, colors, positions of links in the margins, and many other elements of a webpage. This is done through custom Cascading Style Sheets more commonly refered too as "CSS". For more information on CSS, please see the following links:</div></li>
+				 <li ><div ><a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets">Read about Cascading Style Sheets</a></div></li>
+				 <li ><div ><a href="http://w3schools.com/css/default.asp">Learn to write your own CSS</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-<a href="http://zixaphir.github.com/appchan-x/">AppChanX</a>-</div></li>
+				 <li ><div >Userscript and Userstyle</div></li>
+				 <li ><div >Appchan is a 2 in 1 userscript and userstyle, forked from 4chanX. It offers the most variety in options, and is easier to tweak and manage. A good start for beginners. If you have 4chan X already, disable or uninstall it. Appchan X has a custom version of 4chan X that comes with it and it will break if another 4chan X runs in parallel with it. If you have a userstyle or userscript that themes 4chan, you may want to disable it or disable Appchan X's style setting.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-<a href="https://4chan-x.just-believe.in/">4chanX</a>-</div></li>
+				 <li ><div >Userscript</div></li>
+				 <li ><div >Continuation of the project originally started by Aeosynth almost a year ago. For a list of features and a breakdown on installation just visit the link above.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Forks of 4chanX:</div></li>
+				 <li ><div ><a href="http://seaweedchan.github.io/4chan-x/">Seaweeds 4chanX</a></div></li>
+				 <li ><div >Joint project of Zixaphir and Seaweed. Adds emoji by default and is good if you plan on creating your own userstyle.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="https://github.com/ahodesuka/4chan-x/raw/stable/4chan_x.user.js">Ahokas 4chanX v2</a></div></li>
+				 <li ><div >An older version of 4chanX that you will need to use if you plan on using 4chanSS by Ahoka.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://ihavenoface.github.io/4chan-x/">Ihavenoface 4chanX</a></div></li>
+				 <li ><div >Adds cute bloat. Download the stable versions for the browser you prefer using.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-<a href="https://github.com/ahodesuka/4chan-Style-Script">4chanSS</a>-</div></li>
+				 <li ><div >Userstyle</div></li>
+				 <li ><div >The original css with a sidebar concept that is used alongside 4chanX. You will need to use Ahokas 4chanX fork since its not compatible with Mayhems v3. See the readme.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-<a href="http://rideag.github.io/Stilig/">Stiling</a> and <a href="https://github.com/RiDeag/Stilfuld">Stilfuld</a>-</div></li>
+				 <li ><div >Userstyles</div></li>
+				 <li ><div >A clean CSS with a sidebar that functions as a thread watcher and houses custom board navigation links. Original content by Rideag and Myson. These userstyles are used alongside Seaweeds 4chanX.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-<a href="https://github.com/hdni/user-styles">Ribbon and Clean</a>-</div></li>
+				 <li ><div >Userstyles</div></li>
+				 <li ><div >A set of bright and clean userstyles by HDNI. These userstyles are best used with older version of 4chanX, much like Ahokas 4chanSS. They may need some minor edits to fit your browser properly.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-<a href="http://seaweedchan.github.com/OneeChan/">OneeChan</a>-</div></li>
+				 <li ><div >Userstyle</div></li>
+				 <li ><div >It's back! New mascots and new themes! Use with Seaweeds 4chanX.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-<a href="https://github.com/offlineric/easymode">Easymode</a>-</div></li>
+				 <li ><div >Userstyle and Userscript</div></li>
+				 <li ><div >Super detailed animations, with posts that fade in when scrolling. Made by an anon who frequents /g/ (offlineeric)</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@11"><div class="h" >Window Managers &amp; Other Windows Shells</div></li>
+				 <li ><div >For advanced users who are confident in OS modification and ideally Linux literate.</div></li>
+				 <li ><div >Full Documentation is available on the webpages linked.</div></li>
+				 <li ><div >What is a &quot;Window Manager?&quot;: <a href="http://en.wikipedia.org/wiki/Window_manager">Wiki : Window Manager</a></div></li>
+				 <li ><div >What is a &quot;Windows Shell?&quot;: <a href="http://en.wikipedia.org/wiki/Windows_shell">Wiki : Windows Shell</a></div></li>
+				 <li ><div ><a href="http://www.sevenforums.com/customization/62411-windows-7-shell-replacements.html">Seven Forums : Windows Shell Replacements</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-Window Managers-</div></li>
+				 <li ><div ><a href="http://windawesome.codeplex.com/">WindAwesome</a></div></li>
+				 <li ><div ><a href="https://code.google.com/p/bugn/wiki/bugn">Bug.n</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >-Windows Shell-</div></li>
+				 <li ><div ><a href="http://www.litestep.net/">Litestep</a></div></li>
+				 <li ><div ><a href="http://www.emergedesktop.org/">Emerge</a></div></li>
+				 <li ><div ><a href="http://win-bash.sourceforge.net/">Bash (Windows port)</a></div></li>
+				 <li ><div ><a href="http://zsh-nt.sourceforge.net/documentation.html">Zsh (Z-shell for Windows)</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@12"><div class="h" >Auto Hot Key Scripts</div></li>
+				 <li ><div ><a href="http://www.autohotkey.com/">Website</a> - <a href="http://www.autohotkey.com/docs/Tutorial.htm">Tutorial</a></div></li>
+				 <li ><div >Auto Hot Key allows you to program hotkeys, and keystrings, and commands in an easy to understand format. You can then run these scripts on windows by compiling it (creating a .exe) or running it directly through Auto Hot Key (running as .ahk). It's been most commonly used to &quot;tile&quot; or manage/resize windows, but has several other uses. You can remove borders and captions from windows, set up keystrings (i.e.: ty becomes &quot;thank you&quot; automatically), and even launch programs. It saves time, and its great for those who use long passwords or want a more efficient way to manage the way Windows functions.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Miscellaneous Software</div></li>
+				 <li ><div >The following website lists a TON of neat little applications that can do anything from tile windows to add custom toolbars in explorer and even move inactive windows. No promises they all work as intended, as its kind of outdated, however some are priceless pieces of simple code that you will use every day.</div></li>
+				 <li ><div ><a href="http://www.donationcoder.com/Software/Skrommel/index.html">Skrommel : 1 Hr Software</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Miscellaneous Scripts</div></li>
+				 <li ><div ><a href="http://pastebin.com/raw.php?i=JTwRtuQy">Screen Capture</a> - Using <a href="http://www.irfanview.com/main_download_engl.htm">IrfanView</a>, this script instantly saves a dated .png of your desktop once you press "print screen" to the directory of your choosing. Simply edit the directories in the script!</div></li>
+				 <li ><div ><a href="http://pastebin.com/3eFU00b3">Remove Window Titlebars + borders</a> (only created windows/newly opened)</div></li>
+				 <li ><div ><a href="http://pastebin.com/u99sNQdw">Remove ALL Window Titlebars + borders</a></div></li>
+				 <li ><div ><a href="http://pastebin.com/0ZL5hBr2">Removes ALL Window Titlebars + borders</a> (EXCEPT FIREFOX/NIGHTLY)</div></li>
+				 <li ><div ><a href="http://pastebin.com/dZWDEyCc">Customized Version</a> - for removing borders and titlebars for processes of your choosing.</div></li>
+				 <li ><div ><a href="http://pastebin.com/raw.php?i=gDvBakHs">Caption/Titlebar Toggle</a> - Win + H to disable and Win + S to re-enable captions/titlebars on windows of your choosing.</div></li>
+				 <li ><div ><a href="http://cl.ly/code/3G2f27122f2Y">Icon Blanker</a> - Removes the small icon/favicon on the top left of the program window. </div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >"Tiling" Scripts</div></li>
+				 <li ><div ><a href="http://pastebin.com/uqHzjaFA">Anonymous Grid tiling</a> - with mouse functionality. Read the instructions.</div></li>
+				 <li ><div ><a href="https://github.com/konabu/tiling/blob/master/tiling.txt">Monochromes</a> (1920x1080 DUAL SCREEN) - <a href="http://www.gbgl-hq.com/demoness/Monochrome.Tiling.Preview.png">Preview</a></div></li>
+				 <li ><div ><a href="http://pastebin.com/9epbEhqF">Monochromes</a> (1920x1080 SINGLE SCREEN) - <a href="http://www.gbgl-hq.com/demoness/Monochrome.Tiling.2.png">Preview</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="https://github.com/Vibex/qt.pi">Vibex qt.pi</a> - A mock up window manager scripted in AHK that is in development.</div></li>
+				 <li ><div ><a href="http://pastebin.com/zwe1MmiG">Vibex</a>(1920x1080 DUAL SCREEN) - <a href="http://www.gbgl-hq.com/demoness/New.Vibex.Tiling.Preview.png">Preview</a> </div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@12a"><div class="h" >Tiling Windows</div></li>
+				 <li ><div >When creating your own Auto Hot key scripts (like those above) these variables defined below will help you determine how windows are sized. For example: </div></li>
+				 <li ><div >&quot;WinMove,A,, W,X,Y,Z&quot;</div></li>
+				 <li ><div >Where</div></li>
+				 <li ><div >W= Distance of the window from the left side of the screen</div></li>
+				 <li ><div >X= Distance of the window from the top of the screen</div></li>
+				 <li ><div >Y= Total width of the window</div></li>
+				 <li ><div >Z= Total height of the window</div></li>
+				 <li ><div >Like so:</div></li>
+				 <li ><div >NumpadHome:: (defined hotkey)</div></li>
+				 <li ><div >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; WinMove,A,, 20,29,1024,512 (defined window size and position)</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >A list of programmable keys and their names can be found <a href="http://www.autohotkey.com/docs/KeyList.htm">here</a>.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Alternatively, you may want to try the following: </div></li>
+				 <li ><div ><a href="http://winsplit-revolution.com/">Winsplit</a></div></li>
+				 <li ><div >WinSplit Revolution is a small utility which allows you to easily organize your open windows by tiling, resizing and positioning them to make the best use of your desktop real estate.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://jgpaiva.dcmembers.com/gridmove.html">Grid Move</a></div></li>
+				 <li ><div >GridMove is a program that aims at making windows management easier. It helps you with this task by defining a visual grid on your desktop, to which you can easily snap windows. This program comes bundled with some predefined grid templates, that can be easily swaped, but also has ways of creating custom grids or sharing grids made by others.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@13"><div class="h" >VirtuaWin and Multiple Desktops</div></li>
+				 <li ><div ><a href="http://virtuawin.sourceforge.net/">Website</a></div></li>
+				 <li ><div >VirtuaWin is an application for the Windows user community that creates multiple desktop functionality often seen on Unix systems. It is simple, reliable and highly configurable, supporting up to 20 virtual desktops. You can set up custom window rules, hotkeys, and is skinnable with Rainmeter.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Rainmeter Skins:</div></li>
+				 <li ><div >Read about the plugin <a href="http://www.scribd.com/doc/83981678/66/Plugin-VirtualDesktops">here</a>.</div></li>
+				 <li ><div ><a href="http://www.mediafire.com/?g7lxt6bp9g2xo0b">Default</a> - text only version.</div></li>
+				 <li ><div ><a href="https://github.com/childbearinghips/bbrainbar">MonsterWM</a> - an edit that adds pixel icons, like monsterWM. This skin is made for 4 workspaces, by childbearinghips.</div></li>
+				 <li ><div ><a href="https://github.com/Vibex/RainMonster">RainMonster</a> - Vibex's edit that adds pixel icons, like above. This skin is made for 3 workspaces.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://virtuawin.sourceforge.net/?page_id=7">FAQ</a></div></li>
+				 <li ><div >If you plan on using this alongside bblean, I recommend disabling taskbar detection, chances are it will cause errors. The multiple desktops or &quot;workspace&quot; function is already included in bblean. While VirtuaWin functions much the same way, you can add more specific window rules for better functionality overall. Virtuawin also respects current program placements, like rainmeter and other widgets you might have on the desktop. The addition of the Rainmeter VirtuaWin plugin also allows for much more customizable and personalized user interface. If you have any other questions, they are probably are already answered within the Help file that comes with the program. Right click the Icon in your tray and click &quot;Help&quot;. No seriously. Read it!</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li  id="@14"><div class="h" >Docks and Launchers</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://www.launchy.net/about.php">Launchy</a></div></li>
+				 <li ><div >Launchy uses keystrokes to find and launch programs/files it indexes. The website asks for payment/donation, but it's free. Skins available on the website, and DeviantArt. Highly recommended.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://rocketdock.com/">Rocket Dock</a></div></li>
+				 <li ><div >One of the older and more well known docks. Probably the best alternative to Docky for Windows users. Features listed on the website.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://www.stardock.com/products/objectdock/">ObjectDoc</a></div></li>
+				 <li ><div >Another older more well known name to docks. Free, but with limited functionality.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://www.xwidget.com">xWidget</a></div></li>
+				 <li ><div >XWidget is more of a platform for customizing widgets and addons to your desktop, like clocks and weather.</div></li>
+				 <li ><div >XLaunchpad allows you to organize icons and shortcuts on your desktop in stacks, similar to App folders on an Android interface. XLaunchpad is probably the best option for users on a touch screen.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://www.winstep.net/nexus.asp#download">Nexus</a></div></li>
+				 <li ><div >The closest thing to a Mac/OSX dock you can find. Full/Ultimate version requires payment, however.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://xwdock.aqua-soft.org/">xWindows</a></div></li>
+				 <li ><div >Another Mac/OSX type dock. This one is free.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://sliderdock.wikidot.com/start">SliderDock</a></div></li>
+				 <li ><div >Flashy UI, and larger than most - but offers something different. Can be hidden with hotkeys.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://circledock.wikidot.com/">CircleDock</a></div></li>
+				 <li ><div >Another large and intrusive dock, with a flashier UI. Can be hidden with mouse gestures.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@16"><div class="h" >Chat Clients (IRC)</div></li>
+				 <li ><div ><a href="http://www.irssi.org/">Irssi</a> - top rice</div></li>
+				 <li ><div ><a href="http://www.hexchat.org/">Hexchat</a> - easy mode</div></li>
+				 <li ><div ><a href="http://www.weechat.org/">Weechat</a> - somewhere inbetween</div></li>
+				 <li ><div ><a href="http://www.mirc.com/">mIRC</a> - original gangster</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li id="@16a"><div class="h" >Channels</div></li>
+				 <li ><div >You can contact some lurkers and frequent posters on irc.rizon.net - /list will give you a list of channels. There are some common sense channels you can join such as #4chan, #/a/, #/v/, and #/jp/; however each channel has their own sub culture and specific rules. Don't take it personally if you get kicked, banned, or muted in a channel when you're new. Some channels are also private (unlisted) or passworded. Some channels may also require you register a nickname to join. You probably shouldn't try joining a channel you are completely unfamiliar with. For more irc basics and commands, please use www.google.com. I don't mind answering stupid questions sometimes, so you can message me (xDemonessx). I'm on 24/7 and on several channels, and even though I may not always be at the computer I will respond eventually. Stay drama free, and have fun.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li  id="@17"><div class="h" >Steam Skins</div></li>
+				 <li ><div >Steam skins are made up of .style stylesheets (similar to css) and .tga images. Editing the colors and fonts is done through the style sheets, some buttons and icons require you to edit an image in a proper format. Be aware, skins tend to break often with updates and you may need to patch it yourself.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div ><a href="http://fediafedia.deviantart.com/art/Steam-Metro-skin-BETA-5-Big-Picture-fix-199316621">That Minimal Skin</a> - Yep, here it is!</div></li>
+				 <li ><div ><a href="http://metroforsteam.com/">Metro for Steam</a>: This steam skin allows you to customize the accent color in the form of a stand alone &quot;settings.exe&quot; found on the metroforsteam page.</div></li>
+				 <li ><div ><a href="http://forums.steampowered.com/forums/showthread.php?t=2074899">Haldinas</a> "Hey at least its not another dark skin" comes in 21 different colors, and is consistently updated. &nbsp;</div></li>
+				 <li ><div ><a href="http://ravmunken.deviantart.com/art/Deshou-STEAM-372262061">Deshou Steam</a> - Another minimal skin, uses Haxrcorp s8 as a base font.</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li  id="@18"><div class="h" >Vectors, Image search, and Wallpapers</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Reverse Image Search:</div></li>
+				 <li ><div ><a href="http://www.google.com/insidesearch/searchbyimage.html">Google Images</a></div></li>
+				 <li ><div ><a href="http://tineye.com">Tineye</a></div></li>
+				 <li ><div ><a href="http://Saucenao.com">Saucenao</a></div></li>
+				 <li ><div ><a href="http://iqdb.org/">iqdb.org</a> (for anime)</div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Wallpapers/General:</div></li>
+				 <li ><div ><a href="http://4chan.org/wg/">/wg/</a></div></li>
+				 <li ><div ><a href="http://wallbase.cc/home">Wallbase.cc</a></div></li>
+				 <li ><div ><a href="http://4walled.cc/">4walled.cc</a></div></li>
+				 <li ><div ><a href="http://simpledesktops.com/browse/">Simple Desktops</a></div></li>
+				 <li ><div ><a href="http://thepaperwall.com">The Paper Wall</a></div></li>
+				 <li ><div ><a href="http://interfacelift.com">Interfacelift</a></div></li>
+				 <li ><div ><a href="http://nik.bot.nu">Nik.bot</a></div></li>
+				 <li ><div ><a href="http://wallz.eu">Wallz</a></div></li>
+				 <li ><div ><a href="http://walldash.net">Walldash</a></div></li>
+				 <li ><div ><a href="http://wallpaperswide.com">Wallpaperswide</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 <li ><div >Vectors/Anime Wallpapers:</div></li>
+				 <li ><div ><a href="http://4chan.org/w/">/w/</a></div></li>
+				 <li ><div ><a href="http://konachan.com/">Konachan</a></div></li>
+				 <li ><div ><a href="http://danbooru.donmai.us/">Danbooru</a></div></li>
+				 <li ><div ><a href="http://gelbooru.com/">Gelbooru</a></div></li>
+				 <li ><div ><a href="http://yande.re/">Yande.re</a></div></li>
+				 <li ><div ><a href="http://vector.booru.org">Vectorbooru</a></div></li>
+				 <li ><div ><a href="http://browse.minitokyo.net/">Minitokyo</a></div></li>
+				 <li ><div ><a href="http://browse.deviantart.com/manga/digital/vector/?order=5">Deviant Art</a></div></li>
+				 <li ><div ><a href="http://double-you-vectors.deviantart.com/">/w/ Deviant Art Group</a></div></li>
+				 <li ><div >&nbsp;</div></li>
+				 -->
+				 <section id="foot" class="five">
+				 <li  id="@19"><div class="h" >Credits</div></li>
+				 <div id="footer">	
+					<div id="insp">
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div >Inspired by /w/'s <a href="http://nanami-tan.info">Nanami-tan</a></div></li>
+						 <li ><div >&nbsp;</div></li>
+					</div>
+					<div id="credits">
+						 <li ><div >4chan.org <a href="http://4chan.org/vg/">/vg/</a> - Particularly our beloved S.T.A.L.K.E.R. general</a></div></li>
+						 <li ><div ><b>Special Thanks:</b> the hard working anons in charge of the pasta, the knowledgeable ones sticking around and contributing over the years</div></li>
+						 <li ><div ><b>Thanks:</b> Ardias for his build repository, every single mod author especially FatalFunnel and TKGP, OVH for their Cheapsufis</div></li>
+						 <li ><div ><b>Original Inspirations:</b> xDemonessx, yttrium</div></li>
+						 <li ><div ><b>DeviantArt Designers:</b> <a href="http://neizu.deviantart.com/">neizu</a></div></li>
+						 <li ><div ><b>Contributors:</b> Anonymous</div></li>
+						 <li><div  ><b>DOGE:</b> DS4CWXSZKVw15zk4ffhb3VgNGAVb97jTz7</div></li>
+					</div>
+					<div id="thanks">
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div ><b>Thank You!</b></div></li>
+						 <li ><div >&nbsp;</div></li>
+						 <li ><div >&nbsp;</div></li>
+					</div>
+					</section>
+				 </div>
+			<!--</ol>-->
+			</div>
+	</body>
+</html>
