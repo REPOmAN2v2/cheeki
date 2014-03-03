@@ -17,15 +17,26 @@
 		background: #fff;
 	}
 
+
 	body,input,textarea,select
 	{
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		font-size: 14pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
 		-webkit-text-stroke: 0.15px;
 	}
+
+    #nav
+    {
+        font-size:19pt;
+    }
+
+    #footer
+    {
+        font-size:14pt;
+    }
 
 	h1,h2,h3,h4,h5,h6
 	{

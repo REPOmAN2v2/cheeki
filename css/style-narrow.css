@@ -8,10 +8,15 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
-	body,input,textarea,select
+	#nav,body,input,textarea,select
 	{
-		font-size: 16pt;
+		font-size: 14pt;
 	}
+
+    #nav
+    {
+        font-size:16pt;
+    }
 
 	.container
 	{

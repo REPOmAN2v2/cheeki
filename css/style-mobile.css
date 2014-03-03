@@ -8,7 +8,7 @@
 /* Basic                                                                         */
 /*********************************************************************************/
 
-	body,input,textarea,select
+	#nav, #footer,body,input,textarea,select
 	{
 		font-size: 14pt;
 	}
