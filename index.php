@@ -75,8 +75,14 @@
 						</nav>
 						
 				</div>
+                
 				
 				<div class="bottom">
+                    
+                        <div tabindex="0" class="twitch">
+                                <p class="twitch_title">Currently streaming:</p>
+                                <?php include 'twitch_test.php'; ?>
+                        </div>
 
 					<!-- Social Icons -->
 						<ul class="icons">
@@ -84,7 +90,7 @@
 							<li><a href="#" class="fa fa-facebook solo"><span>Facebook</span></a></li>-->
 							<li><a href="https://github.com/REPOmAN2v2/cheeki" class="fa fa-github solo"><span>Github</span></a></li>
 							<!--<li><a href="#" class="fa fa-dribbble solo"><span>Dribbble</span></a></li>
-							<li><a href="#" class="fa fa-envelope solo"><span>Email</span></a></li>-->
+							<<li><a href="#" class="fa fa-envelope solo"><span>Email</span></a></li>-->
 						</ul>
 				
 				</div>
@@ -170,7 +176,7 @@
                                 <li><a href="https://mega.co.nz/#F!zEtSxC4J!eRsovn-n098UpRtLDmr5_w">My repository of mods</a></li>
                                 <li><a href="http://cheeki.violates.me/repo/">Backup repository (use MEGA if possible)</a></li>
                                 <li><a href="https://mega.co.nz/#F!kFtnBTSb!K-RlA1TVxlJGl86yE1c6fw">The S.T.A.L.K.E.R. Build Repository by Ardias</a></li>
-                                <li><a href="http://pastebin.com/jcGYvEuH">The poorfag's guide to S.T.A.L.K.E.R.</a></li>
+                                <li><a href="http://pastebin.com/Z93x5RDR">The poorfag's guide to S.T.A.L.K.E.R.</a></li>
                                 <li><a href="http://pastebin.com/u/TheREVIEWER">TheREVIEWER's reviews</a></li>
                                 <li><a href="http://www.tweakguides.com/STALKER_1.html">TweakGuides' guide for SoC</a></li>
                                 <li><a href="http://www.tweakguides.com/ClearSky_1.html">TweakGuides' guide for Clear Sky</a></li>
@@ -349,8 +355,9 @@ jump_speed = 50.0</code></pre>
                 <!-- SoC Modding -->
 					<section id="soc" class="one">
 						<div class="container">
+                            <a class="image featured"><img src="images/plsnomore.jpg" alt="" /></a>
 
-							<header>
+							<header>                           
 								<h2>S.T.A.L.K.E.R.: Shadow of Chernobyl</h2>
                                 <h6>Не понимаю... ничего не понимаю</h6>
 							</header>

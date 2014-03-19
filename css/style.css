@@ -980,6 +980,27 @@
 			width: 100%;
 		}
 
+        #header .twitch {
+            font-size: 11pt;
+            text-align: right;
+            padding: 10px;
+            width:100%;
+        }
+
+            #header .twitch_title {
+                    float: left;
+                    padding: 0px 5px;
+                    margin: 0px;
+                    width: 100%;
+                    text-align: center;
+            }
+
+            #header .online {
+                margin: 0;
+                text-align: center;
+                padding-left: 5px;
+            }
+
 		#header .icons
 		{
 			font-size: 0.8em;
@@ -1195,3 +1216,37 @@
 		{
 			background-color: #e8edec;
 		}
+
+/*********************************************************************************/
+/* On-click buttons                                                                          */
+/*********************************************************************************/
+
+.onclick-menu {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.onclick-menu:before {
+    content: "Twitch streamers";
+}
+.onclick-menu:focus {
+    /* clicking on label should toggle the menu */
+    pointer-events: none;
+}
+.onclick-menu:focus .onclick-menu-content {
+    /*  opacity is 1 in opened state (see below) */
+    opacity: 1;
+    visibility: visible;
+
+    /* don't let pointer-events affect descendant elements */
+    pointer-events: auto;
+}
+.offline.onclick-menu-content {
+    /*position: absolute;*/
+    z-index: 1;
+
+    /* use opacity to fake immediate toggle */
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.5s;
+}
