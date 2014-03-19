@@ -81,7 +81,7 @@
                     
                         <div tabindex="0" class="twitch">
                                 <p class="twitch_title">Currently streaming:</p>
-                                <?php include 'twitch_test.php'; ?>
+                                <?php include 'twitch.php'; ?>
                         </div>
 
 					<!-- Social Icons -->

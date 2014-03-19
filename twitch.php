@@ -1,7 +1,4 @@
-<html>
-        <body>
-            
-            <ul class="online">
+<ul class="online">
                 <?php
                     /**
 					* array with all stream names i.e. www.twitch.tv/"iksf".
@@ -62,25 +59,4 @@
 					}   
                     
                 ?>
-                </ul>
-                
-                <!--<ul class="offline">
-                ?php
-					//This part list all the people currently offline. Here the array with online users is compared with the total users.
-					//online users are then removed from the total users array.
-					foreach ($streamList as $i => $singleStream)
-					{
-							if(in_array($singleStream, $checkedOnline))
-							{
-									unset($streamList[$i]);
-							}                                      
-					}
-					//print a nice list with people that can't currently be bothered with streaming their games    
-					foreach ($streamList as $i => $singleStream) {
-							echo '<li><a href="http://www.twitch.tv/'.$singleStream.'"> <strong>'.$singleStream.'</strong></a>';
-							echo '&nbsp<img src="images/offline.png"></br></li>';
-					}
-                ?>
-                </ul>-->
-        </body>
-</html>
+</ul>
