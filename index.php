@@ -80,7 +80,7 @@
 				<div class="bottom">
                     
                         <div tabindex="0" class="twitch">
-                                <p class="twitch_title">Currently streaming:</p>
+                                <p class="twitch_title">Online streamers:</p>
                                 <?php include 'twitch.php'; ?>
                         </div>
 
